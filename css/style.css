@@ -1,0 +1,94 @@
+* {
+    -webkit-box-sizing: border-box;  /*for old browsers*/
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;   /* The width and height properties include the content, the padding and border, but not the margin. */
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: #7d97ad; /* old IE */
+    background-color: #7d97ad; /* Modern Browsers */
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #747704;
+    font-weight: 300;
+}
+
+img, embed, object, video {
+    max-width: 100%;
+}
+
+.text-muted {
+    color: #bcbbbb;
+}
+
+.text-thin {
+    font-weight: 100;
+}
+
+.text-thick {
+    font-weight: 400;
+}
+
+.fa {
+    color: #0071BC;
+}
+
+@media screen and (max-width: 550px) {
+    .title-super {
+        font-size: 1.9em;
+    }
+
+    .text-mobile-small {
+        font-size: 0.8em;
+    }
+
+    .text-mobile-medium {
+        font-size: 1.5em;
+    }
+
+    .title-logo {
+        margin-top: 10px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+        margin: 0px;
+    }
+}
+
+@media screen and (min-width: 551px) and (max-width: 800px) {
+    .title-super {
+        font-size: 2.5em;
+    }
+
+    .text-mobile-small {
+        font-size: 1.2em;
+    }
+
+    .text-mobile-medium {
+        font-size: 2.2em;
+    }
+
+    .title-logo {
+        margin-top: 20px;
+        max-width: 100px;
+        max-height: 100px;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .title-super {
+        font-size: 60px;
+    }
+
+    .title-logo {
+    margin-top: 25px;
+    max-width: 125px;
+    max-height: 125px;
+    }
+}

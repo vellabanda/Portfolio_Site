@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anurag Mittal</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" media="screen and (min-width: 801px)" href="css/style.css">
+        <link rel="stylesheet" media="screen and (max-width: 550px)" href="css/style.css">
+        <link rel="stylesheet" media="screen and (min-width: 551px) and (max-width: 800px)" href="css/style.css">
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="row">
+                <div class="col-xs-4 col-md-4">
+                    <picture>
+                        <source media="(max-width: 550px)" srcset="img/Logo-500x300small_1x.png">
+                        <source media="(min-width: 551px) and (max-width: 800px)" srcset="img/Logo-800medium_1x.png">
+                        <img class="title-logo img-responsive" src="img/logo.png" alt="Logo Image">
+                    <picture>
+                </div>
+                <section class="col-xs-8 col-md-8 text-right">
+                    <h1 class="title-super text-thin text-uppercase">Anurag Mittal</h1>
+                    <h4 class="text-thick text-mobile-small">Full-Stack Ninja, Storage and Network Engineer</h4>
+                    <nav>
+                        <a href="https://www.linkedin.com/in/mittalanu" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://www.facebook.com/mittalAnu" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+                        <a href="https://github.com/vellabanda" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a>
+                    </nav>
+                </section>
+            </header>
+            <main>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                            <source media="(max-width: 550px)" srcset="http://placekitten.com/550/400">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="http://placekitten.com/800/400">
+                            <img src="http://placekitten.com/1200/400" class="img-responsive" alt="project image">
+                    </div>
+                </div>
+                <div class="row">
+                    <article class="col-md-12 text-muted text-thick">
+                        <h2 class="text-mobile-medium">Featured Work</h2>
+                    </article>
+                </div>
+                <div class="row text-center">
+                    <div class="col-sm-6 col-md-4">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="img/P1_Movie_Trailer_Project-550x300small_1x.png" data-toggle="modal" data-target="#movie_trailer">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="img/P1_Movie_Trailer_Project-800medium_1x.png" data-toggle="modal" data-target="#movie_trailer">
+                            <img src="img/P1_Movie_Trailer_Project-1600large_2x.png" class="img-responsive" alt="Project 1" data-toggle="modal" data-target="#movie_trailer">
+                        </picture>
+                        <footer>
+                            <h3 class="text-uppercase">Movie Trailer</h3>
+                            <a href="https://github.com/vellabanda/movie_trailer_website" target="_blank"><p>https://github.com/vellabanda/movie_trailer_website</p></a>
+                        </footer>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="http://placekitten.com/550/300" data-toggle="modal" data-target="#multi_user_blog">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="http://placekitten.com/400/312" data-toggle="modal" data-target="#multi_user_blog">
+                            <img src="http://placekitten.com/360/286" class="img-responsive" alt="Project 1" data-toggle="modal" data-target="#multi_user_blog">
+                        </picture>
+                        <footer>
+                            <h3 class="text-uppercase">Multi User Blog</h3>
+                            <a href="http://github.com/Sunflower" target="_blank"><p>http://github.com/Sunflower</p></a>
+                        </footer>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="http://placekitten.com/550/300" data-toggle="modal" data-target="#tournament_results_website">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="http://placekitten.com/400/312" data-toggle="modal" data-target="#tournament_results_website">
+                            <img src="http://placekitten.com/360/286" class="img-responsive" alt="Project 1" data-toggle="modal" data-target="#tournament_results_website">
+                        </picture>
+                        <footer>
+                            <h3 class="text-uppercase">Tournament Results</h3>
+                            <a href="http://github.com/Bokeh" target="_blank"><p>http://github.com/Bokeh</p></a>
+                        </footer>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <!-- Modal for project 1-->
+        <div class="modal fade" id="movie_trailer" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Movie Trailer Website</h4>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="img/P1_Movie_Trailer_Project-550x300small_1x.png">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="img/P1_Movie_Trailer_Project-800medium_1x.png">
+                            <img src="img/P1_Movie_Trailer_Project-1600large_2x.png" class="img-responsive" alt="Preview of Movie Trailer Website project">
+                        </picture>
+                        <p class="text-justify">In this project  I build a Movie Trailer Website where users can see my favorite movies and watch the trailers. Using python, I have written the server side code to store a list of movie titles, box art, poster images, and movie trailer URLs. The data has been be expressed on the web page to allow users to review the movies and watch the trailers.</p>
+                        <a href="https://github.com/vellabanda/movie_trailer_website" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> View this project's code on Github</a><br>
+                        <a href="../P1%20Movie%20Trailer%20Website/fresh_tomatoes.html" target="_blank"><i class="fa fa-desktop fa-2x" aria-hidden="true"></i> Live Demo</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for project 2-->
+        <div class="modal fade" id="multi_user_blog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title " id="myModalLabel2">Multi User Blog</h4>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="http://placekitten.com/550/300">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="http://placekitten.com/600/312">
+                            <img src="http://placekitten.com/600/300" class="img-responsive" alt="Preview of Multi User Blog Website">
+                    </picture>
+                        <p>lots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of text</p>
+                        <a href="https://github.com/vellabanda/movie_trailer_website" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> View this project's code on Github</a><br>
+                        <a href="https://github.com/vellabanda/movie_trailer_website" target="_blank"><i class="fa fa-desktop fa-2x" aria-hidden="true"></i> Live Demo</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for project 3-->
+        <div class="modal fade" id="tournament_results_website" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title " id="myModalLabel3">Tournament Results</h4>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <picture>
+                            <source media="(max-width: 550px)" srcset="http://placekitten.com/550/300">
+                            <source media="(min-width: 551px) and (max-width: 800px)" srcset="http://placekitten.com/600/312">
+                            <img class="img-responsive" src="http://placekitten.com/600/300" alt="Preview of Tournament Results Website">
+                        </picture>
+                        <p>lots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of textlots and lots of text</p>
+                        <a href="https://github.com/vellabanda/movie_trailer_website" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i> View this project's code on Github</a><br>
+                        <a href="https://github.com/vellabanda/movie_trailer_website" target="_blank"><i class="fa fa-desktop fa-2x" aria-hidden="true"></i> Live Demo</a>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
