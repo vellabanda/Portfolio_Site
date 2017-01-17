@@ -18,7 +18,10 @@ body {
     font-weight: 300;
 }
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
 }
 
@@ -35,7 +38,7 @@ img, embed, object, video {
 }
 
 .fa {
-    color: #0071BC;
+    color: #0071bc;
 }
 
 @media screen and (max-width: 550px) {
@@ -57,7 +60,7 @@ img, embed, object, video {
 
     h3 {
         font-size: 1.2em;
-        margin: 0px;
+        margin: 0;
     }
 }
 
@@ -87,8 +90,8 @@ img, embed, object, video {
     }
 
     .title-logo {
-    margin-top: 25px;
-    max-width: 125px;
-    max-height: 125px;
+        margin-top: 25px;
+        max-width: 125px;
+        max-height: 125px;
     }
 }
